@@ -1,6 +1,7 @@
 import {Routes, Route} from "react-router-dom"
 import { Container } from "react-bootstrap"
 import { Home } from "./pages/Home"
+import { Subscribe } from "./pages/Subscribe"
 import { Store } from "./pages/Store"
 import { About } from "./pages/About"
 import { Navbar } from "./components/Navbar"
@@ -13,6 +14,7 @@ function App() {
       <Container className="mb-4">
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/subscribe" element={<Subscribe/>} />
           <Route path="/store" element={<Store/>} />
           <Route path="/about" element={<About/>} />
         </Routes>

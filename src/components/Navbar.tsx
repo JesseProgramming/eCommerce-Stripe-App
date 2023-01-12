@@ -7,8 +7,14 @@ export function Navbar(){
     return <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
         <Container>
             <Nav className="me-auto">
+                <Nav.Link  className="me-5" to={"/"} as={NavLink}>
+                    Animation Domination
+                </Nav.Link>
                 <Nav.Link to={"/"} as={NavLink}>
                     Home
+                </Nav.Link>
+                <Nav.Link to={"/subscribe"} as={NavLink}>
+                    Subscribe
                 </Nav.Link>
                 <Nav.Link to={"/store"} as={NavLink}>
                     Store

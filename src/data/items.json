@@ -3,24 +3,67 @@
         "id": 1,
         "name": "Book",
         "price": 10.99,
-        "imgUrl": "/imgs/book.jpg"
+        "imgUrl": "/imgs/store/book.jpg"
     },
     {
         "id": 2,
         "name": "Computer",
         "price": 1199,
-        "imgUrl": "/imgs/computer.jpg"
+        "imgUrl": "/imgs/store/computer.jpg"
     },
     {
         "id": 3,
         "name": "Banana",
         "price": 1.05,
-        "imgUrl": "/imgs/banana.jpg"
+        "imgUrl": "/imgs/store/banana.jpg"
     },
     {
         "id": 4,
         "name": "Car",
         "price": 14000,
-        "imgUrl": "/imgs/car.jpg"
+        "imgUrl": "/imgs/store/car.jpg"
+    },
+    {
+        "id": 5,
+        "name": "T-Shirt",
+        "price": 19.99,
+        "imgUrl": "/imgs/store/car.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Hoodie",
+        "price": 29.99,
+        "imgUrl": "/imgs/store/car.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Stolas Plush",
+        "price": 24.99,
+        "imgUrl": "/imgs/store/stolas-plush.png"
+    },
+    {
+        "id": 8,
+        "name": "Infinity Train Key Chain",
+        "price": 7.99,
+        "imgUrl": "/imgs/store/infinity-train-keychain.png"
+    },
+    {
+        "id": 9,
+        "name": "Stickers",
+        "price": 4.99,
+        "imgUrl": "/imgs/store/car.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Enamel Pins",
+        "price": 17.99,
+        "imgUrl": "/imgs/store/car.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Poster",
+        "price": 12.99,
+        "imgUrl": "/imgs/store/car.jpg"
     }
+    
 ]

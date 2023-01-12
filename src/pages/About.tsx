@@ -1,3 +1,15 @@
 export function About(){
-    return <h1>About</h1>
+    return (
+        <>
+        <div className="background-container">
+            <img src="../public/imgs/about/splash-about-inside-job.png" style={{width: "100%", height:"100vh", position:"absolute", top:"0", left:"0", zIndex:"-5", filter:"brightness(15%)"}}></img>
+        </div>
+        <h1 className="text-white mt-5">About Us:</h1>
+        <p className="text-white">We created our company when we noticed several out of touch studios casting aside their animated shows, their talented artists, and the communities they created. This broke our hearts to see, it's seemed as if there was no respect for animation anymore by the very companies that were built on animation. So that's where we come in.</p>
+        <p className="text-white">We are offering a home to all the animations cast aside, all those who have worked hard in the industry and were let go, those who aspire for a career in animation, and communities born from these fantastic shows. Trust with community and talent is at an all time now in the industry, and we strive to be the home for all things animation.</p>
+        <p className="text-white">We get out funding directly from our subscription service, and our merch store. This is what keeps the platform alive and well. We are also aware there's quite a significant amount of talent in the community! So if you're interested in supporting your favorite shows, and making some bank off of your work, we encourage you to submit your art to us directly! If we like what you've got, we'll showcase it directly on our merch store! You'll get 15% of the profits, and have your socials credited right on the store page. Let's make it a win for everybody! :)</p>
+        <p className="text-white">We are always looking for new shows to green light. So we'll get the community involved. Every once in awhile, when we find some awesome pilots, we'll put it up to a vote for the community to decide which show we get to make next! We know it'll be hard choosing sometimes, but if a show doesn't get the green light one day, it can always come back at a later date! So keep an eye out!</p>
+        <p className="text-white">One of the saddest things we've seen in the industry is shows being canceled with no formal warning, having their seasons cut short, having cliff hangers left forever, and having seasons rushed to a close. Sometimes that's just the harsh reality of business. But we believe that every show should have the proper end it deserves. Best case scenario, we'll let the creators know that the next season is the last. Worst case scenario, we might have to suspend development of a final season until we have proper budgeting in order. But you better believe that all of us internally are fighting to give each and every show the proper ending it deserves.</p>
+        </>
+    )
 }
